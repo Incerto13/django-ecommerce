@@ -1,0 +1,19 @@
+{% extends 'shop/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+    <form role="form"
+          action="{% url 'shop:login' %}"
+          method="post">
+        {% csrf_token %}
+
+        <p>Please login.</p>
+
+        {{ form }}
+
+        <button type="submit" class="btn btn-success">Sign in</button>
+    </form>
+
+{% endblock %}

@@ -1,0 +1,5 @@
+Django==2.1.0
+psycopg2==2.6
+gunicorn==19.6.0
+redis==2.10.3
+Pillow==2.2.1

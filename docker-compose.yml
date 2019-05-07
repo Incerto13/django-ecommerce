@@ -2,8 +2,9 @@ version: '2'
 services:
 
     web:
-
         build: ./web
+        restart: unless-stopped
+        env_file: ./web/app.env
         volumes:
         - ./web:/usr/src/app
         - /static:/static
@@ -14,21 +15,16 @@ services:
           - "8003"
         command: gunicorn ecommerce.wsgi -b 0.0.0.0:8003
 
-
     postgres:
-
         build: ./postgres
         restart: unless-stopped
+        env_file: ./web/app.env
         expose:
             - "5432"
         environment:   # will be used by the init script
             LC_ALL: C.UTF-8
-            POSTGRES_USER: django
-            POSTGRES_PASSWORD: pwordyaezz
-            POSTGRES_DB: ecommerce
         volumes:
-            - pgdata:/var/lib/postgresql/data/  # persist container's db data to local pgdata/ (mounted)
-
+            - ./postgres/data:/var/lib/postgresql/data/  # persist container's db data to local pgdata/ (mounted)
 
     redis:
         image: sickp/alpine-redis:3.2.2
@@ -39,17 +35,16 @@ services:
             - redisdata:/data
 
     nginx:
-        restart: always
+        restart: unless-stopped
         build: ./nginx/
         ports:
-          - "8003:83"
+          - "8003:80"
         volumes:
           - /static:/static
         links:
           - web
 
 volumes:
-  pgdata:
   redisdata:
 
 

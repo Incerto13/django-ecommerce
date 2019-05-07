@@ -20,12 +20,16 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-
+#  ------------->>>>> SECRET_KEY = 'oq*rcu%@n0&zakgphd%kbrz-f4t6!k)ut0^%k^4#in&r!e=r2d'
+SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+if os.environ['DJANGO_ENV'] == 'production':
+    DEBUG = False
+else:
+    DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '.incertotech.com', '35.175.177.130']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.incertotech.com', '54.80.224.201']
 
 
 # Application definition
@@ -81,15 +85,15 @@ DATABASES = {
 
     'postgresql': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ecommerce',
-        'USER': 'django',
-        'HOST': 'postgres',
+        'NAME': os.environ['POSTGRES_DB'],
+        'USER': os.environ['POSTGRES_USER'],
+        'PASSWORD': os.environ['POSTGRES_PASSWORD'],
+        'HOST': os.environ['DB_HOST'],
         'PORT': 5432,
     }
 }
 
 DATABASES['default'] = DATABASES['postgresql']
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
@@ -125,23 +129,28 @@ USE_TZ = True
 
 USE_THOUSAND_SEPARATOR = True
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/2.1/howto/static-files/
-
+# Static files Settings (CSS, JavaScript, Images)
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, '/static/')
 
-STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
+# Additional locations of static files
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static')),
+
+# This is random and only in this django project---> delete??
+STATICFILES_FINDERS = [
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+]
+
+# File Uploads Settings
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 
 LOGIN_REDIRECT_URL = 'shop:product_list'
 LOGOUT_REDIRECT_URL = 'shop:product_list'
 LOGIN_URL = 'shop:login'
 
-MEDIA_URL = '/media/'
-MEDIA_ROOT = "media"
 
 CART_SESSION_ID = 'cart'
 
-try:
-    from .local_settings import *
-except ImportError:
-    raise Exception("A local_settings.py file is required to run this project")

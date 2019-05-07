@@ -1,0 +1,5 @@
+.gitignore
+.git/
+Junk/
+settings_OLD.py
+postgres/data

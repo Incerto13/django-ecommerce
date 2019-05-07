@@ -3,108 +3,58 @@
   <component name="ChangeListManager">
     <list default="true" id="3ab07ee3-61df-4071-99bc-e50e6434c3f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/cart.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/context_processors.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datadump.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommerce/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/04/1989_Lamborghini_Countach25thAnniversario-3-1536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/04/1990_Lamborghini_Diablo41.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/04/2002_Bentley_AzureLeMansSeries1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/04/2002_Ferrari_Enzo101.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/04/2003_Jaguar_R43.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/04/2004_AstonMartin_VanquishSV127.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/04/2009_BMW_M3GT41.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/04/2010_Jaguar_XJ75PlatinumConcept1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/04/2010_Lamborghini_MurcilagoLP6704SuperVeloce3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/04/2012_Bugatti_164VeyronVenet-0-1536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/04/2014_Lamborghini_Gallardo595Zagato-0-1536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/04/2014_Lamborghini_HuracnLP6104-0-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/04/2015_AstonMartin_Vulcan-0-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/04/2015_BMW_750LixDrive-0-1536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/04/2015_Bentley_ContinentalGTSpeed-8-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/04/F40ferarri20090509.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/04/Ferrari-458-Speciale.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/04/Ferrari-F355-Speciale.jpg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/04/Ferrari_F50-GT_1998-13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/04/Jaguar_XK-SS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/04/bugatti-gran-turismo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/05/1985_Maserati_BiturboII1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/05/1997_Porsche_911GT1Straenversion1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/05/1999_Acura_NSXAlexZanardiEdition-0-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/05/2003_Porsche_CarreraGT-0-1024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/05/2007_Brabus_SLRMcLarenRoadster1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/05/2008_Maserati_A8GCSBerlinettaTouring-0-1536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/05/2008_RollsRoyce_PhantomCoup1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/05/2010_Mansory_GranTurismoS1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/05/2010_Porsche_918Spyder6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/05/2011_Brabus_SLSAMGRoadster1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/05/2014_Maserati_Alfieri-0-1536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/05/2014_RollsRoyce_GhostSeriesII-0-1536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/05/2015_Lotus_ElisePrototype1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/05/2019-acura-nsx-58.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/05/26-McLaren-P1-1024x683.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/05/588785_McLaren-Senna-Victory-Grey-19-Dark-1024x768.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/05/Ferrari-LaFerrari-Ultimate-Guide-57.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/05/Jaguar_XK-SS.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/05/Maybach.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/05/lotus_espirit_s1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/05/lotus_sport_exige.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/products/2018/10/25/bugatti-divo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/migrations/0002_auto_20181004_1902.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/migrations/0003_auto_20181004_1927.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/migrations/0004_auto_20181005_0707.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/migrations/0005_auto_20181011_2337.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/migrations/0006_auto_20181012_1611.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/migrations/0007_auto_20181012_1652.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/default.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/cart/detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/error_modal.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/orders/order/create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/orders/order/created.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/shop/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/shop/login_form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/shop/navbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/shop/product/detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/shop/product/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/shop/signup_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx/default.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postgres/init/01-db_setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/postgres/init/01-db_setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/web/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/ecommerce/local_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/ecommerce/settings_OLD.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/ecommerce/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/ecommerce/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/ecommerce/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/ecommerce/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/web/entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/04/1989_Lamborghini_Countach25thAnniversario-3-1536.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/04/1990_Lamborghini_Diablo41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/04/2002_Bentley_AzureLeMansSeries1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/04/2002_Ferrari_Enzo101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/04/2003_Jaguar_R43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/04/2004_AstonMartin_VanquishSV127.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/04/2009_BMW_M3GT41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/04/2010_Jaguar_XJ75PlatinumConcept1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/04/2010_Lamborghini_MurcilagoLP6704SuperVeloce3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/04/2012_Bugatti_164VeyronVenet-0-1536.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/04/2014_Lamborghini_Gallardo595Zagato-0-1536.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/04/2014_Lamborghini_HuracnLP6104-0-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/04/2015_AstonMartin_Vulcan-0-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/04/2015_BMW_750LixDrive-0-1536.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/04/2015_Bentley_ContinentalGTSpeed-8-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/04/F40ferarri20090509.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/04/Ferrari-458-Speciale.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/04/Ferrari-F355-Speciale.jpg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/04/Ferrari_F50-GT_1998-13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/04/Jaguar_XK-SS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/04/bugatti-gran-turismo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/05/1985_Maserati_BiturboII1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/05/1997_Porsche_911GT1Straenversion1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/05/1999_Acura_NSXAlexZanardiEdition-0-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/05/2003_Porsche_CarreraGT-0-1024.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/05/2007_Brabus_SLRMcLarenRoadster1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/05/2008_Maserati_A8GCSBerlinettaTouring-0-1536.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/05/2008_RollsRoyce_PhantomCoup1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/05/2010_Mansory_GranTurismoS1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/05/2010_Porsche_918Spyder6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/05/2011_Brabus_SLSAMGRoadster1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/05/2014_Maserati_Alfieri-0-1536.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/05/2014_RollsRoyce_GhostSeriesII-0-1536.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/05/2015_Lotus_ElisePrototype1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/05/2019-acura-nsx-58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/05/26-McLaren-P1-1024x683.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/05/588785_McLaren-Senna-Victory-Grey-19-Dark-1024x768.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/05/Ferrari-LaFerrari-Ultimate-Guide-57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/05/Jaguar_XK-SS.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/05/Maybach.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/05/lotus_espirit_s1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/05/lotus_sport_exige.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/media/products/2018/10/25/bugatti-divo.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +63,92 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/ecommerce/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="135" column="38" lean-forward="true" selection-start-line="135" selection-start-column="38" selection-end-line="135" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/templates/shop/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="20" column="92" selection-start-line="20" selection-start-column="92" selection-end-line="20" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/templates/shop/product/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-270">
+              <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/templates/shop/product/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1107">
+              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/ecommerce/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+              <folding>
+                <element signature="e#633#665#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nginx/default.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -140,6 +175,9 @@
       <find>margin-top</find>
       <find>title</find>
       <find>categories</find>
+      <find>image</find>
+      <find>document_root</find>
+      <find>product</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -179,13 +217,27 @@
         <option value="$PROJECT_DIR$/ecommerce/__init__.py" />
         <option value="$PROJECT_DIR$/ecommerce/settings.py" />
         <option value="$PROJECT_DIR$/ecommerce/local_settings.py" />
+        <option value="$PROJECT_DIR$/postgres/init/01-db_setup.sh" />
+        <option value="$PROJECT_DIR$/web/ecommerce/local_settings.py" />
+        <option value="$PROJECT_DIR$/web/app.env" />
+        <option value="$PROJECT_DIR$/web/app-env" />
+        <option value="$PROJECT_DIR$/web/entrypoint.sh" />
+        <option value="$PROJECT_DIR$/gitignore" />
+        <option value="$PROJECT_DIR$/.dockerignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/web/ecommerce/settings_OLD.py" />
+        <option value="$PROJECT_DIR$/web/ecommerce/urls.py" />
+        <option value="$PROJECT_DIR$/web/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/nginx/default.conf" />
+        <option value="$PROJECT_DIR$/web/ecommerce/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="98" />
-    <option name="y" value="30" />
-    <option name="width" value="1768" />
+    <option name="x" value="79" />
+    <option name="y" value="163" />
+    <option name="width" value="1778" />
     <option name="height" value="854" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -194,23 +246,84 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="ecommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-ecommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-ecommerce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-ecommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-ecommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="postgres" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-ecommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="postgres" type="462c0819:PsiDirectoryNode" />
+              <item name="init" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-ecommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-ecommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="ecommerce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-ecommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-ecommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-ecommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-ecommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-ecommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-ecommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tictactoe" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../django-blog" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -240,7 +353,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.255119" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24460432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -251,7 +364,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32901832" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -260,236 +373,195 @@
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24460432" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32901832" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
+    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../tutorial_Blogwebsite/blogwebsite/settings.py" />
-    <entry file="file://$PROJECT_DIR$/../tutorial_Blogwebsite/blog/admin.py" />
-    <entry file="file://$PROJECT_DIR$/shop/urls.html" />
-    <entry file="file://$PROJECT_DIR$/../tutorial_Blogwebsite/blogwebsite/urls.py" />
-    <entry file="file://$PROJECT_DIR$/../tutorial_Blogwebsite/blog/urls.py" />
-    <entry file="file://$PROJECT_DIR$/../tutorial_Blogwebsite/static/css/blog.css" />
-    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orders/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orders/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orders/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/orders/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/orders/forms.py" />
+    <entry file="file://$PROJECT_DIR$/shop/admin.py" />
     <entry file="file://$PROJECT_DIR$/../tutorial_Blogwebsite/templates/blog/base.html" />
     <entry file="file://$PROJECT_DIR$/../tutorial_Blogwebsite/templates/blog/post_list.html" />
-    <entry file="file://$PROJECT_DIR$/cart/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cart/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cart/admin.py" />
+    <entry file="file://$PROJECT_DIR$/cart/apps.py" />
     <entry file="file://$PROJECT_DIR$/../tutorial_Blogwebsite/blog/views.py" />
-    <entry file="file://$PROJECT_DIR$/cart/forms.py">
+    <entry file="file://$PROJECT_DIR$/cart/forms.py" />
+    <entry file="file://$PROJECT_DIR$/orders/views.py" />
+    <entry file="file://$PROJECT_DIR$/shop/tests.py" />
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css" />
+    <entry file="file://$PROJECT_DIR$/cart/context_processors.py" />
+    <entry file="file://$PROJECT_DIR$/cart/models.py" />
+    <entry file="file://$PROJECT_DIR$/cart/views.py" />
+    <entry file="file://$PROJECT_DIR$/shop/models.py" />
+    <entry file="file://$PROJECT_DIR$/shop/views.py" />
+    <entry file="file://$PROJECT_DIR$/templates/cart/detail.html" />
+    <entry file="file://$PROJECT_DIR$/templates/shop/product/detail.html" />
+    <entry file="file://$PROJECT_DIR$/templates/shop/base.html" />
+    <entry file="file://$PROJECT_DIR$/templates/shop/navbar.html" />
+    <entry file="file://$PROJECT_DIR$/templates/orders/order/create.html" />
+    <entry file="file://$PROJECT_DIR$/templates/orders/order/created.html" />
+    <entry file="file://$PROJECT_DIR$/static/css/styles.css" />
+    <entry file="file://$PROJECT_DIR$/cart/cart.py" />
+    <entry file="file://$PROJECT_DIR$/templates/shop/product/list.html" />
+    <entry file="file://$PROJECT_DIR$/ecommerce/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/shop/urls.py" />
+    <entry file="file://$PROJECT_DIR$/ecommerce/urls.py" />
+    <entry file="file://$PROJECT_DIR$/cart/urls.py" />
+    <entry file="file://$PROJECT_DIR$/ecommerce/local_settings.py" />
+    <entry file="file://$PROJECT_DIR$/ecommerce/settings.py" />
+    <entry file="file://$PROJECT_DIR$/postgres/init/01-db_setup.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        <state relative-caret-position="54">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/orders/views.py">
+    <entry file="file://$PROJECT_DIR$/web/app.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="54">
+          <caret line="2" column="69" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/web/app-env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/entrypoint.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cart/context_processors.py">
+    <entry file="file://$PROJECT_DIR$/gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
+        <state relative-caret-position="135">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cart/models.py">
+    <entry file="file://$PROJECT_DIR$/.dockerignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cart/views.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="135">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/cart/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1653">
-          <caret line="57" column="64" selection-start-line="57" selection-start-column="64" selection-end-line="57" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/shop/product/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1189">
-          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/shop/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/shop/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/orders/order/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/orders/order/created.html">
+    <entry file="file://$PROJECT_DIR$/web/requirements.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cart/cart.py">
+    <entry file="file://$PROJECT_DIR$/web/shop/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        <state relative-caret-position="574">
+          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/shop/product/list.html">
+    <entry file="file://$PROJECT_DIR$/web/static/img/default.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="108">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/__init__.py">
+    <entry file="file://$PROJECT_DIR$/web/templates/shop/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="179">
+          <caret line="20" column="92" selection-start-line="20" selection-start-column="92" selection-end-line="20" selection-end-column="92" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shop/urls.py">
+    <entry file="file://$PROJECT_DIR$/web/templates/shop/product/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="-270">
+          <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/urls.py">
+    <entry file="file://$PROJECT_DIR$/web/ecommerce/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="188">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding>
             <element signature="e#633#665#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cart/urls.py">
+    <entry file="file://$PROJECT_DIR$/nginx/default.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="294">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/local_settings.py">
+    <entry file="file://$PROJECT_DIR$/web/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="100" column="5" lean-forward="true" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+        <state relative-caret-position="132">
+          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/settings.py">
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-551">
-          <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        <state relative-caret-position="1107">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ecommerce/settings_OLD.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="971">
+          <caret line="137" column="21" selection-start-line="137" selection-start-column="21" selection-end-line="137" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/shop/product/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ecommerce/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="135" column="38" lean-forward="true" selection-start-line="135" selection-start-column="38" selection-end-line="135" selection-end-column="38" />
         </state>
       </provider>
     </entry>
